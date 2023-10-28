@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="NexSuite.StartPageControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NexSuite"
+             mc:Ignorable="d" 
+             d:DesignWidth="800" d:DesignHeight="600">
+    <Grid Background="#333333">
+        <Image HorizontalAlignment="Center" Height="100" Margin="0,200,0,0" VerticalAlignment="Top" Width="100" Source="/NexSuite.png"/>
+        <Label Content="Start programming with NexSuite!&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,315,0,0" VerticalAlignment="Top" Background="#005B4141" Foreground="White" FontFamily="Bahnschrift" FontSize="18"/>
+    </Grid>
+</UserControl>

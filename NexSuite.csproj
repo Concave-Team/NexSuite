@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="NexSuite.png" />
+    <None Remove="NexSuiteSplash.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="NexSuite.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SplashScreen Include="NexSuiteSplash.png" />
+  </ItemGroup>
+
+</Project>
