@@ -28,17 +28,12 @@
         </DockPanel>
 
 
-        <TabControl x:Name="TextAreaTabControl" Margin="25,29,280,180" Background="#333333" BorderThickness="0,0,0,0" Width="1495" Height="755">
+        <TabControl x:Name="TextAreaTabControl" Margin="25,29,320,180" Background="#333333" BorderThickness="0,0,0,0" Height="755">
             <TabControl.Effect>
                 <DropShadowEffect BlurRadius="6" Opacity="0.75" Direction="300" ShadowDepth="1"/>
             </TabControl.Effect>
 
-            <TabItem Header="Start Page" Background="#333333" BorderBrush="Black" Foreground="White" IsSelected = "false"  Margin="-2,-2,-1,0">
-                <TabItem.Style>
-                    <Style/>
-                </TabItem.Style>
-                <Grid Background="#333333"/>
-            </TabItem>
+
         </TabControl>
 
     </Grid>
